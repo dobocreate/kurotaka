@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+}
+
+header .company-name h1 {
+    margin: 0;
+}
+
+header .global-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header .global-nav li {
+    margin-left: 20px;
+}
+
+header .global-nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.explanation {
+    display: flex;
+    padding: 20px;
+}
+
+.explanation .message, .explanation .president-image {
+    flex: 1;
+}
+
+.explanation .president-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.news-list {
+    padding: 20px;
+}
+
+.news-list .news {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.link-cards {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.link-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.link-card .button a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-news-list {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer-news-list h4 {
+    margin-top: 0;
+}
+
+.footer-news-list .footer-news {
+    margin-bottom: 10px;
+}
+
+.footer-nav {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav li {
+    margin-bottom: 10px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.copyright {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
